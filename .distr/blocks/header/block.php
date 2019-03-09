@@ -1,9 +1,11 @@
 <div class="header">
 	<nav class="header__nav">
-		<a href="#" class="header__nav-link">ссылка 1</a>
-		<a href="#" class="header__nav-link">ссылка 2</a>
-		<a href="#" class="header__nav-link">ссылка 3</a>
+		<a href="#" class="header__nav-link">Винил</a>
+		<a href="#" class="header__nav-link">Новые поступления</a>
+		<a href="#" class="header__nav-link">Контакты</a>
 	</nav>    
 </div>
 
-<div class="header-background"></div>
+<div class="header-background">
+	<h1 class="header-background-title">warm-sound</h1>
+</div>

@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 	<link rel="stylesheet" href="css/style.css">
-
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:900|Montserrat:400,600,700,900&amp;subset=cyrillic" rel="stylesheet">
+	
 	<title>warm-sound.ru</title>
 </head>
 
@@ -28,13 +29,15 @@ include_once 'prices.php';
 
 		<div class="header">
 	<nav class="header__nav">
-		<a href="#" class="header__nav-link">ссылка 1</a>
-		<a href="#" class="header__nav-link">ссылка 2</a>
-		<a href="#" class="header__nav-link">ссылка 3</a>
+		<a href="#" class="header__nav-link">Винил</a>
+		<a href="#" class="header__nav-link">Новые поступления</a>
+		<a href="#" class="header__nav-link">Контакты</a>
 	</nav>    
 </div>
 
-<div class="header-background"></div>
+<div class="header-background">
+	<h1 class="header-background-title">warm-sound</h1>
+</div>
 
 		<section class="main"></section>
 <div class="container"></div>
