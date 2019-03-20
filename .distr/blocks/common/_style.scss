@@ -23,6 +23,18 @@
 	user-select: none;
 	padding: 0 15px;
 }
+
+/*--- animation start---*/
+
+.block-closed:nth-of-type(n+5) {
+    display: none;
+}
+.block0-opened {
+	display: block;
+}
+
+/*--- animation end---*/
+
 @media (max-width:1400px){
 	.container{
 		width: 100%;

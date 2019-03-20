@@ -1,11 +1,6 @@
 $(function() {
-
-    let showMoreBtn = $('.speakers__show-more-btn');
-
+    let showMoreBtn = $('.vinyl_show-more');
     showMoreBtn.on('click', function () {
-        $('.speakers__panel').addClass('speakers__panel_opened');
-        $(this).closest('.speakers__show-more').hide();
+        $('.novelty_block-item').toggleClass('block-closed block-opened');
     });
-
 });
-
