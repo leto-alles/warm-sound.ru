@@ -1,13 +1,13 @@
 {
-  "name": "project-base",
+  "name": "warm-sound",
   "version": "1.0.0",
-  "description": "project-base",
+  "description": "warm-sound",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "node node_modules/gulp/bin/gulp.js"
   },
-  "author": "aradul@synergy.ru",
+  "author": "eglebov@mail.ru",
   "license": "MIT",
   "homepage": "#",
   "devDependencies": {
