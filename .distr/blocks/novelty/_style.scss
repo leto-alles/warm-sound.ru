@@ -1,0 +1,15 @@
+.novelty{
+    min-height: 800px;
+    background-color: black;
+    height: 900px;
+    &:before{
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0 200px 2000px;
+        border-color: transparent transparent black transparent;
+        transform: translateY(-200px);
+    }
+}

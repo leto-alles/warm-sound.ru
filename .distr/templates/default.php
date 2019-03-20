@@ -28,7 +28,7 @@ include_once 'prices.php';
 	<div class="wrapper">
 
 		{% include 'header/block.php' %}
-		{% include 'main/block.php' %}
+		{% include 'novelty/block.php' %}
 
 	</div>
 

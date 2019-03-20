@@ -1,5 +1,5 @@
 .header{
-    background: black;
+    background: #000000;
     display: block;
     height: 50px;
     width: 100%;
@@ -35,7 +35,7 @@
 		height: 0;
 		border-style: solid;
 		border-width: 200px 2000px 0 0;
-		border-color: black transparent transparent transparent;
+		border-color: #000000 transparent transparent transparent;
 	}
 	&-background{
 		background-image: url("/img/header/title-pic.jpeg"); 
@@ -47,10 +47,10 @@
 		box-sizing: border-box;
 
 		&-title{
-			font-family: 'Montserrat Alternates', sans-serif;
-			font-size: 48px;
-			color: orange;
-			text-shadow: 0px 0px 10px black;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 74px;
+			color: #ffa500;
+			text-shadow: 0px 0px 10px #000000;
 			letter-spacing: 0.5px;
 			text-align: center;
 			cursor: default;
@@ -59,7 +59,7 @@
 		    -ms-user-select: none;
 		        user-select: none;
 		    margin:0 auto;
-		    padding-top: 260px;
+		    padding-top: 215px;
 		}
 	}
 }
