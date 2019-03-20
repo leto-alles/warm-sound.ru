@@ -11,5 +11,21 @@
         border-width: 0 0 200px 2000px;
         border-color: transparent transparent black transparent;
         transform: translateY(-200px);
-    }
+	}
+	&-title{
+		text-align: right;
+	}
+	&_block{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		&-item{
+			flex-shrink: 0;
+			width:350px;
+			height: 350px;
+			background-color: azure;
+		}
+	}
 }

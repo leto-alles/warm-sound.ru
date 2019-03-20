@@ -30,7 +30,7 @@ include_once 'prices.php';
 		<section class="header">
 	<nav class="header__nav">
 		<a href="#" class="header__nav-link">Винил</a>
-		<a href="#" class="header__nav-link">Новые поступления</a>
+		<a href="#novelty" class="header__nav-link">Новые поступления</a>
 		<a href="#" class="header__nav-link">Контакты</a>
 	</nav> 
 </section>
@@ -41,8 +41,51 @@ include_once 'prices.php';
 
 
 
-		<section class="main"></section>
-<div class="container"></div>
+		
+
+<section class="novelty" id="novelty">
+    <div class="container">
+        <h2 class="section-title novelty-title">Новые поступления</h2>
+        <div class="novelty_block">
+         
+            <div class="novelty_block-item">
+                <h3 class="novelty_block-title vinyl-title">Group Name</h3>
+            </div>  
+         
+            <div class="novelty_block-item">
+                <h3 class="novelty_block-title vinyl-title">Group Name2</h3>
+            </div>  
+         
+            <div class="novelty_block-item">
+                <h3 class="novelty_block-title vinyl-title">Group Name3</h3>
+            </div>  
+         
+            <div class="novelty_block-item">
+                <h3 class="novelty_block-title vinyl-title">Group Name4</h3>
+            </div>  
+         
+            <div class="novelty_block-item">
+                <h3 class="novelty_block-title vinyl-title">Group Name5</h3>
+            </div>  
+         
+            <div class="novelty_block-item">
+                <h3 class="novelty_block-title vinyl-title">Group Name6</h3>
+            </div>  
+         
+        </div>
+        
+        
+        <div class="speakers__show-more">
+            <div class="speakers__show-more-btn">
+                <h4 style="color:#FFFFFF;">VJHT</h4>
+               
+            </div>
+        </div>
+               
+    </div>
+
+</section>
+
 
 
 	</div>
