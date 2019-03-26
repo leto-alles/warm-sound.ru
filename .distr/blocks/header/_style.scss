@@ -1,3 +1,5 @@
+$anim_time: 1s;
+
 .header{
     background-color: #000000;
     display: block;
@@ -67,6 +69,9 @@
 .header__m-nav{
   display: none;
 }
+.d-show {
+  display: none;
+}
 
 @media (max-width:500px){
   .header{
@@ -78,8 +83,24 @@
   .header__nav{
 		display:none;
 	}
-  .header_menu-btn,
+  .a-show {
+    display: flex;
+    -webkit-animation: link-visible;
+    -o-animation: link-visible;
+    animation: link-visible $anim_time ease-in-out;
+  }
+  @keyframes link-visible {
+    0% { opacity: 0; }
+    25% { opacity: 0.25; }
+    50% {opacity: 0.5; }
+    75% {opacity: 0.75; }
+    100% {opacity: 1; }
+  }
+
   .header__m-nav{
+    flex-direction: column;
+  }
+  .header_menu-btn{
     display: block;
   }
   .header__m-nav{
@@ -87,15 +108,15 @@
     top:40px;
     width: calc(100% - 120px);
     padding-left: 25px;
-    background-color: antiquewhite;
+    
   }
   .header__m-nav-link {
-    margin-top: 25px;
     color: #b6b6b6;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -105,10 +126,6 @@
 
 
 }
-
-/*тест*/
-$mainFont: 'Candal', sans-serif;
-$anim_time: 1s;
 
 
 //OPEN
@@ -205,6 +222,10 @@ $anim_time: 1s;
     position: absolute;
     bottom: 0;
     color: #b6b6b6;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   
   &:hover {
@@ -217,11 +238,13 @@ $anim_time: 1s;
       animation-fill-mode: forwards;
       right: -10px;
       top: -9px;
+      height: 3px;
     }
     
     &:after {
       animation: bottomBar_open $anim_time ease-in-out;
       animation-fill-mode: forwards;
+      height: 3px;
 
     }
     

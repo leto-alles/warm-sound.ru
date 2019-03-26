@@ -3,6 +3,7 @@ $(function () {
 	initCarousel();
 	initFancybox();
 	scrollNovelty();
+	topMenu();
 
 	/* Functions */
 
@@ -94,18 +95,25 @@ $(function () {
     });
 	}
 
-	var $button = $('#menu-btn');
+	function topMenu(){
 
-	$button.on('click', function(e){
-    e.preventDefault();
-    if( $button.hasClass('open') ){
-      $button.removeClass('open');
-      $button.addClass('close');
-    } else {
-      $button.removeClass('close');
-      $button.addClass('open');
-    }
-});
+		let $button = $('#menu-btn');
+
+		$button.on('click', function(e) {
+		e.preventDefault();
+		if ($button.hasClass('open')) {
+
+			$button.removeClass('open');
+			$button.addClass('close');
+		} else {
+			$button.removeClass('close');
+			$button.addClass('open');
+		}
+		});
+		$('#menu-btn').click(function(){
+			$('.header__m-nav').toggleClass("d-show a-show");
+		});
+	};
 
 
 });

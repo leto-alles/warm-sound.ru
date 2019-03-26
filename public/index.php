@@ -37,9 +37,10 @@ include_once 'prices.php';
         <span class="icon"></span>
         <span class="text">Меню</span>
     </div>
-    <nav class="header__m-nav">
+    <nav class="header__m-nav d-show">
         <a href="#" class="header__m-nav-link">Винил</a>
         <a href="#novelty" class="header__m-nav-link link-novelty">Новые поступления</a>
+        <a href="#" class="header__m-nav-link">Контакты</a>
     </nav>
 </section>
 
