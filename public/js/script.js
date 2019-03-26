@@ -2,7 +2,7 @@ $(function () {
 	/* Inits */
 	initCarousel();
 	initFancybox();
-
+	scrollNovelty();
 
 	/* Functions */
 
@@ -87,8 +87,25 @@ $(function () {
 		$('div.slick-carousel').trigger('carousel.init');
 	}
 
+	function scrollNovelty(){
+    $('.link-novelty').on('click', function(e){
+        $('html,body').stop().animate({ scrollTop: $('#novelty').offset().top }, 1000);
+        e.preventDefault();
+    });
+	}
 
+	var $button = $('#menu-btn');
 
+	$button.on('click', function(e){
+    e.preventDefault();
+    if( $button.hasClass('open') ){
+      $button.removeClass('open');
+      $button.addClass('close');
+    } else {
+      $button.removeClass('close');
+      $button.addClass('open');
+    }
+});
 
 
 });

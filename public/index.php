@@ -30,9 +30,13 @@ include_once 'prices.php';
 		<section class="header">
 	<nav class="header__nav">
 		<a href="#" class="header__nav-link">Винил</a>
-		<a href="#novelty" class="header__nav-link">Новые поступления</a>
+		<a href="#novelty" class="header__nav-link link-novelty">Новые поступления</a>
 		<a href="#" class="header__nav-link">Контакты</a>
 	</nav> 
+	<div id="menu-btn">
+  		<span class="icon"></span>
+  		<span class="text">MENU</span>
+	</div>
 </section>
 
 <div class="header-background">
@@ -82,7 +86,7 @@ include_once 'prices.php';
                  
         </div>
         
-        <div class="vinyl_show-more">
+        <div class="novelty_show-more">
             <h4 style="color:#FFFFFF;">море</h4>
         </div>
          

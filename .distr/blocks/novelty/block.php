@@ -11,7 +11,7 @@
         {% endfor %}         
         </div>
         {% if noveltyItems.length > 4 %}
-        <div class="vinyl_show-more">
+        <div class="novelty_show-more">
             <h4 style="color:#FFFFFF;">море</h4>
         </div>
         {% endif %} 
