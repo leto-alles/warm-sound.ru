@@ -34,7 +34,7 @@ include_once 'prices.php';
         <a href="#" class="header__nav-link">Инфо</a>
 		<a href="#" class="header__nav-link">Контакты</a>
 	</nav>
-    <div class="header_menu-btn" id="menu-btn">
+    <div class="header__menu-btn" id="menu-btn">
         <span class="icon"></span>
         <h2 class="text">Меню</h2>
     </div>
@@ -62,35 +62,51 @@ include_once 'prices.php';
         <div class="novelty_block"> 
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name</h3>
+                <img src="/img/novelty/beatles/white/1.jpg" alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name2</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Revolver</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name3</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Lkbyyjt lkbyyjt yfpdfybt fkm,jvf rfr ntcn</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name4</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Album 545 long</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name5</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Album2 long</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name6</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Album2 long</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name7</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Album2 long</p>
             </div>  
             
             <div class="novelty_block-item block-closed">
-                <h3 class="novelty_block-title vinyl-title">Group Name8</h3>
+                <img src="" alt="" class="novelty_block-img vinyl-img">
+                <h3 class="novelty_block-title vinyl-title"></h3>
+                <p class="novelty_block-album vinyl-album">Album2 long</p>
             </div>  
                  
         </div>

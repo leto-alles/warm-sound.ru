@@ -50,8 +50,6 @@ $anim_time: 1s;
 			font-family: 'Montserrat', sans-serif;
 			font-size: 74px;
 			color: #000000;
-      /*color: #ffa500;
-			text-shadow: 0px 0px 10px #000000;*/
 			letter-spacing: 0.5px;
 			text-align: center;
 			cursor: default;
@@ -63,11 +61,13 @@ $anim_time: 1s;
 		    padding-top: 215px;
 		}
 	}
+
+  &__menu-btn,
+  &__m-nav{
+    display: none;
+  }
 }
-.header_menu-btn,
-.header__m-nav{
-  display: none;
-}
+
 .d-show {
   display: none;
 }
@@ -116,7 +116,7 @@ $anim_time: 1s;
   .header__m-nav{
     flex-direction: column;
   }
-  .header_menu-btn{
+  .header__menu-btn{
     display: block;
   }
   .header__m-nav{
