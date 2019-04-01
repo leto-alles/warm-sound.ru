@@ -52,6 +52,8 @@ $(function () {
 	/* author: http://kenwheeler.github.io/slick/ | source: https://cdnjs.com/libraries/slick-carousel */
 	/* Ко всем блокам с классом slick-carousel инициализируется карусель. Параметры указываем в атрибуте data-slick-options блока, data-slick-options="{responsive: [{breakpoint: 768,settings: {slidesToShow: 4,slidesToScroll: 4}},{breakpoint: 992,settings: {slidesToShow: 5,slidesToScroll: 5}}]}" */
 
+	/*
+
 	function initCarousel() {
 
 		if (!$('div.slick-carousel').length) return;
@@ -88,11 +90,56 @@ $(function () {
 		$('div.slick-carousel').trigger('carousel.init');
 	}
 
+	*/
+	function initCarousel(){
+	  $('.slick-novelty').slick({
+	dots: true,
+	dotsClass: "my-dots",
+	centerMode: false,
+	infinite: false,
+	speed: 1500,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	lazyLoad: 'ondemand',
+	nextArrow: '<div class="slick-next">&#8669;</div>',
+	prevArrow: '<div class="slick-prew">&#8668;</div>',
+	responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+
+	  });
+	}
+
 	function scrollNovelty(){
-    $('.link-novelty').on('click', function(e){
-        $('html,body').stop().animate({ scrollTop: $('#novelty').offset().top }, 1000);
-        e.preventDefault();
-    });
+	    $('.link-novelty').on('click', function(e){
+	        $('html,body').stop().animate({ scrollTop: $('#novelty').offset().top }, 1000);
+	        e.preventDefault();
+	    });
 	}
 
 	function topMenu(){
@@ -118,9 +165,9 @@ $(function () {
 
 });
 
-$(function() {
-    let showMoreBtn = $('.vinyl_show-more');
+/*$(function() {
+    let showMoreBtn = $('.novelty_show-more');
     showMoreBtn.on('click', function () {
         $('.novelty_block-item').toggleClass('block-closed block-opened');
     });
-});
+});*/
