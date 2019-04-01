@@ -96,13 +96,14 @@ $(function () {
 	dots: true,
 	dotsClass: "my-dots",
 	centerMode: false,
-	infinite: false,
+	infinite: true,
 	speed: 1500,
 	slidesToShow: 4,
 	slidesToScroll: 1,
 	lazyLoad: 'ondemand',
-	nextArrow: '<div class="slick-next">&#8669;</div>',
-	prevArrow: '<div class="slick-prew">&#8668;</div>',
+	arrows: false,
+	/*nextArrow: '<div class="slick-next">&#8669;</div>',
+	prevArrow: '<div class="slick-prew">&#8668;</div>',*/
 	responsive: [
     {
       breakpoint: 1024,
