@@ -61,7 +61,7 @@ include_once 'prices.php';
         <h2 class="section-title novelty-title">Новые поступления</h2>
         <div class="novelty_block slick-novelty"> 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles lkbyyjt yfpdfbyt fkm,jvf vf</h3>
@@ -71,7 +71,7 @@ include_once 'prices.php';
         </a>    
 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
@@ -81,7 +81,7 @@ include_once 'prices.php';
         </a>    
 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
@@ -91,7 +91,7 @@ include_once 'prices.php';
         </a>    
 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/4.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
@@ -101,7 +101,7 @@ include_once 'prices.php';
         </a>    
 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
@@ -111,7 +111,7 @@ include_once 'prices.php';
         </a>    
 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
@@ -121,7 +121,7 @@ include_once 'prices.php';
         </a>    
 
             
-        <a href="#novelty-popap" class="fansybox">
+        <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
@@ -136,7 +136,10 @@ include_once 'prices.php';
 </section>
 
 
-<div id="#novelty-popap" class= "target"></div>
+<div id="novelty-popap" class= "target">c
+
+<p>dsvsdvds</p>
+</div>
 
 
 

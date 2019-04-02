@@ -56,7 +56,7 @@
 			color: #ffffff;
 			position: absolute;
 			top:65px;
-			right:0;
+			right:25px;
 
 		}
 		&-album{
@@ -97,13 +97,14 @@
 		&-album{
 			opacity: 1;
 			transition: 0.5s;
-	}
+		}
 	}
 }
 
-.target{
-	width: 500px;
-	height: 500px;
-	background-color:green;
-	display: block;
+
+.fancybox-wrap,
+.fancybox-inner{
+	width: 350px !important;
 }
+
+

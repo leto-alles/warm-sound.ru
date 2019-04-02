@@ -165,6 +165,8 @@ $(function () {
 
 });
 
+
+
 /*$(function() {
     let showMoreBtn = $('.novelty_show-more');
     showMoreBtn.on('click', function () {
