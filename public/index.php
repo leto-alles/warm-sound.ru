@@ -64,7 +64,8 @@ include_once 'prices.php';
 
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title">The Beatles lkbyyjt yfpdfbyt fkm,jvf vf</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
@@ -74,6 +75,7 @@ include_once 'prices.php';
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
@@ -83,6 +85,7 @@ include_once 'prices.php';
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
@@ -92,6 +95,7 @@ include_once 'prices.php';
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/4.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
@@ -101,6 +105,7 @@ include_once 'prices.php';
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
@@ -110,6 +115,7 @@ include_once 'prices.php';
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
@@ -119,12 +125,12 @@ include_once 'prices.php';
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
                 <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
 
 
           
-
         </div>
     </div>
 </section>
