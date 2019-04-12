@@ -64,7 +64,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles lkbyyjt yfpdfbyt fkm,jvf vf</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles lkbyyjt yfpdfbyt fkm,jvf vf</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -74,7 +74,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -84,7 +84,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -94,7 +94,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/4.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -104,7 +104,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -114,7 +114,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -124,7 +124,7 @@ include_once 'prices.php';
         <a href="#novelty-popap" class="fancybox">
             <div class="novelty_block-item">
                 <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" class="novelty_block-img vinyl-img">
-                <h3 class="novelty_block-title vinyl-title">The Beatles</h3>
+                <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                 <p class="novelty_block-line"></p>
                 <p class="novelty_block-album vinyl-album">White Album</p>
             </div>  
@@ -136,9 +136,14 @@ include_once 'prices.php';
 </section>
 
 
-<div id="novelty-popap" class= "target">c
-
-<p>dsvsdvds</p>
+<div id="novelty-popap" class= "novelty-popap-wrapper">
+    <div class="novelty_popap">     
+        <div class="novelty_popap-item">
+            <h3 class="novelty_popap-title pp"></h3>
+            <p class="novelty_popap-line"></p>
+            <p class="novelty_popap-album"></p>
+        </div> 
+    </div>
 </div>
 
 

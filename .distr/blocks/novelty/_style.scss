@@ -25,7 +25,6 @@
     		margin: 0 10px;
     		overflow: hidden;
     		cursor: pointer;
-
 		}
 		&-img{
 			width: 100%;
@@ -33,7 +32,6 @@
 			background-size: contain;
 			top:0;
 			left: 0;
-
 		}
 		&-title{
 			font-family: 'Montserrat', sans-serif;
@@ -104,7 +102,10 @@
 
 .fancybox-wrap,
 .fancybox-inner{
-	width: 350px !important;
+	width: 650px !important;
 }
 
+.novelty-popap-wrapper{
+    background: burlywood;
+}
 
