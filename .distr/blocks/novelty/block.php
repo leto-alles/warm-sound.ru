@@ -23,7 +23,7 @@
 <div id="novelty-popap" class= "novelty-popap-wrapper">
     <div class="novelty_popap">     
         <div class="novelty_popap-item">
-            <h3 class="novelty_popap-title pp"></h3>
+            <h3 class="novelty_popap-title pp">.</h3>
             <p class="novelty_popap-line"></p>
             <p class="novelty_popap-album"></p>
         </div> 

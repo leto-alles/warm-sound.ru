@@ -9,14 +9,11 @@ $(document).ready(function() {
 
 
 		$('[href="#novelty-popap"]').on('click', function(){
-			var $card = $(this);
-			var $popap = $('#novelty-popap');
-			var nameC =  $('[data-name]', $card).html();
+			let $card = $(this);
+			let nameC =  $('[data-name]', $card).html();
 			console.log(nameC);
+			$(".pp").text(nameC);
 
-
-			$('.novelty_popap-item.pp', $popup).html(name);
-		
 
 
 	});
