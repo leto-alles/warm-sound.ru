@@ -20,13 +20,19 @@
 </section>
 
 
-<div id="novelty-popap" class= "novelty-popap-wrapper">
-    <div class="novelty_popap">     
-        <div class="novelty_popap-item">
-            <h3 class="novelty_popap-title pp">.</h3>
-            <p class="novelty_popap-line"></p>
-            <p class="novelty_popap-album"></p>
-        </div> 
+<div id="novelty-popap" class= "novelty_popap-wrapper">
+    <div class="novelty_popap">
+            <div class="novelty_popap-left">
+                
+            </div>
+
+            <div class="novelty_popap-right">
+                <h3 class="novelty_popap-group">The beatles</h3>
+                <p class="novelty_popap-album">ДЛинное название альбома</p>
+                <p class="novelty_popap-type">LP</p>
+                <p class="novelty_popap-label">Мелодия</p>
+                <p class="novelty_popap-country">РФ</p>
+            </div>
     </div>
 </div>
 

@@ -103,11 +103,23 @@
 .fancybox-wrap,
 .fancybox-inner{
 	width: 650px !important;
-	background: burlywood;
+	padding: 10px;
 }
 
+.fancybox-image, .fancybox-inner, .fancybox-nav, .fancybox-nav span, .fancybox-outer, .fancybox-skin, .fancybox-tmp, .fancybox-wrap, .fancybox-wrap iframe, .fancybox-wrap object{
+	border-radius:10px;
+}
+.novelty_popap {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 
-.pp{
-	text-align: center;
-    margin-top: 40px;
+	&-left,
+	&-right{
+		width: 50%;
+	}
+	&-left{
+		background-color: rgba(226, 226, 226, 0.5);
+	}
+
 }

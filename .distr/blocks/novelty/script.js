@@ -12,7 +12,7 @@ $(document).ready(function() {
 			let $card = $(this);
 			let nameC =  $('[data-name]', $card).html();
 			console.log(nameC);
-			$(".pp").text(nameC);
+			$(".novelty_popap-title").text(nameC);
 
 
 
