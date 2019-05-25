@@ -73,6 +73,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -100,6 +101,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -127,6 +129,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -154,6 +157,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -181,6 +185,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -208,6 +213,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -235,6 +241,7 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-photo_2>/img/novelty/beatles/white/2.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_3>/img/novelty/beatles/white/3.jpg</li>
                         <li class="novelty_block-hidden_options" data-photo_4>/img/novelty/beatles/white/4.jpg</li>
+                        <li class="novelty_block-hidden_options" data-photo_alt>White Album The Beatles LP</li>
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
@@ -258,10 +265,12 @@ include_once 'prices.php';
 <div id="novelty-popap" class= "novelty_popap-wrapper">
     <div class="novelty_popap fade">
             <div class="novelty_popap-left">
-                <img src="" alt="" class="novelty_popap-img novelty_popap-img-1">
-                <img src="" alt="" class="novelty_popap-img novelty_popap-img-2">
-                <img src="" alt="" class="novelty_popap-img novelty_popap-img-3">
-                <img src="" alt="" class="novelty_popap-img novelty_popap-img-4">
+                <div class="novelty_popap-img-block">
+                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-1 novelty_popap-img-main">
+                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-2 novelty_popap-img-second">
+                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-3 novelty_popap-img-second">
+                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-4 novelty_popap-img-second">
+                </div>
             </div>
 
             <div class="novelty_popap-right">
@@ -273,6 +282,7 @@ include_once 'prices.php';
             </div>
     </div>
 </div>
+
 
 
 

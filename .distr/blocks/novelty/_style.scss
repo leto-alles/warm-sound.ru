@@ -120,13 +120,49 @@
 	&-left,
 	&-right{
 		width: 50%;
+		min-height: 415px;
 	}
-	&-left{
-		background-color: rgba(226, 226, 226, 0.5);
-	}
+	// &-left{
+	// 	background-color: rgba(226, 226, 226, 0.5);
+	// }
 	&-img{
-		max-width: 300px;
-		max-height: 300px;
+		max-width: 310px;
+		max-height: 310px;
+		border-radius: 5px;
+
+		&-block{
+			position: relative;
+		}
+
+		&-1{
+			position:absolute;
+			top:0;
+			left: 0;
+			width: 310px;
+			height: 310px;
+		}
+		&-2{
+			position:absolute;
+			top:315px;
+			left: 0;
+			width: 100px;
+			height: 100px;
+		}
+		&-3{
+			position: absolute;
+			left: 105px;
+			top: 315px;
+			width: 100px;
+			height: 100px;
+		}
+		&-4{
+			position: absolute;
+			left: 210px;
+			top: 315px;
+			width: 100px;
+			height: 100px;
+		}
+
 	}
 
 }
