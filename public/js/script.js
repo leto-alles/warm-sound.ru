@@ -91,49 +91,6 @@ $(function () {
 	}
 
 	*/
-	function initCarousel(){
-	  $('.slick-novelty').slick({
-	dots: true,
-	dotsClass: "my-dots",
-	centerMode: false,
-	infinite: true,
-	speed: 1500,
-	slidesToShow: 4,
-	slidesToScroll: 1,
-	lazyLoad: 'ondemand',
-	arrows: false,
-	/*nextArrow: '<div class="slick-next">&#8669;</div>',
-	prevArrow: '<div class="slick-prew">&#8668;</div>',*/	
-	responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
- 		centerPadding: '5px'
-      }
-    }
-  	] 
-
-	  });
-	}
 
 	function scrollNovelty(){
 	    $('.link-novelty').on('click', function(e){
@@ -141,6 +98,50 @@ $(function () {
 	        e.preventDefault();
 	    });
 	}
+
+	function initCarousel(){
+		$('.slick-novelty').slick({
+			dots: true,
+			dotsClass: "my-dots",
+			centerMode: false,
+			infinite: true,
+			speed: 1500,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			lazyLoad: 'ondemand',
+			arrows: false,
+			/*nextArrow: '<div class="slick-next">&#8669;</div>',
+			prevArrow: '<div class="slick-prew">&#8668;</div>',*/	
+			responsive: [
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 3,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 800,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 2
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        centerMode: true,
+		 		centerPadding: '5px'
+		      }
+		    }
+		  	] 
+		});
+	}
+
 
 	function topMenu(){
 
@@ -176,14 +177,23 @@ $(function () {
 
 $(document).ready(function() {
 
+		
 
 		$('[href="#novelty-popap"]').on('click', function(){
 			let $card = $(this);
-			let nameC =  $('[data-name]', $card).html();
-			console.log(nameC);
-			$(".novelty_popap-title").text(nameC);
+			let $nameG =  $('[data-name]', $card).html();
+			let $nameA =  $('[data-album]', $card).html();
+			let $pic1 = $('[data-photo_main]', $card).html();
+			let $pic2 = $('[data-photo_2]', $card).html();
+			let $pic3 = $('[data-photo_3]', $card).html();
+			let $pic4 = $('[data-photo_4]', $card).html();
+			
 
-
-
+			$(".novelty_popap-title").text($nameG);
+			$(".novelty_popap-album").text($nameA);
+			$(".novelty_popap-img-1").attr('src', $pic1);
+			$(".novelty_popap-img-2").attr('src', $pic2);
+			$(".novelty_popap-img-3").attr('src', $pic3);
+			$(".novelty_popap-img-4").attr('src', $pic4);
 	});
 });

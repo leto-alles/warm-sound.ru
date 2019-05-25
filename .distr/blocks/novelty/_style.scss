@@ -68,6 +68,9 @@
 			min-height: 80px;
 			opacity: 0;
 		}
+		&-hidden{
+			display: none;
+		}
 
 	}
 }
@@ -120,6 +123,10 @@
 	}
 	&-left{
 		background-color: rgba(226, 226, 226, 0.5);
+	}
+	&-img{
+		max-width: 300px;
+		max-height: 300px;
 	}
 
 }

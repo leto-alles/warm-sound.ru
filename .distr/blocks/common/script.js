@@ -91,49 +91,6 @@ $(function () {
 	}
 
 	*/
-	function initCarousel(){
-	  $('.slick-novelty').slick({
-	dots: true,
-	dotsClass: "my-dots",
-	centerMode: false,
-	infinite: true,
-	speed: 1500,
-	slidesToShow: 4,
-	slidesToScroll: 1,
-	lazyLoad: 'ondemand',
-	arrows: false,
-	/*nextArrow: '<div class="slick-next">&#8669;</div>',
-	prevArrow: '<div class="slick-prew">&#8668;</div>',*/	
-	responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 800,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
- 		centerPadding: '5px'
-      }
-    }
-  	] 
-
-	  });
-	}
 
 	function scrollNovelty(){
 	    $('.link-novelty').on('click', function(e){
@@ -141,6 +98,50 @@ $(function () {
 	        e.preventDefault();
 	    });
 	}
+
+	function initCarousel(){
+		$('.slick-novelty').slick({
+			dots: true,
+			dotsClass: "my-dots",
+			centerMode: false,
+			infinite: true,
+			speed: 1500,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			lazyLoad: 'ondemand',
+			arrows: false,
+			/*nextArrow: '<div class="slick-next">&#8669;</div>',
+			prevArrow: '<div class="slick-prew">&#8668;</div>',*/	
+			responsive: [
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 3,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 800,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 2
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        centerMode: true,
+		 		centerPadding: '5px'
+		      }
+		    }
+		  	] 
+		});
+	}
+
 
 	function topMenu(){
 

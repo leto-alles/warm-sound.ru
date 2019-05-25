@@ -2,8 +2,7 @@
 .wrapper{
     max-width: 1920px;
 	overflow: hidden;
-	-webkit-box-shadow: 0 0 21px rgba(157,163,183,.75);
-	        box-shadow: 0 0 21px rgba(157,163,183,.75);
+	box-shadow: 0 0 21px rgba(157,163,183,.75);
 	margin: 0 auto;
 }
 
@@ -22,7 +21,10 @@
     -moz-user-select: none;
     -ms-user-select: none;
 	user-select: none;
+	cursor: default;
 	padding: 0 15px;
+	margin-bottom: 45px;
+
 }
 
 /*--- animation start---*/
