@@ -61,7 +61,7 @@ include_once 'prices.php';
         <h2 class="section-title novelty-title">Новые поступления</h2>
         <div class="novelty_block slick-novelty"> 
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles lkbyyjt yfpdfbyt fkm,jvf vf</h3>
@@ -89,7 +89,7 @@ include_once 'prices.php';
                 </div>  
             </a>    
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
@@ -117,7 +117,7 @@ include_once 'prices.php';
                 </div>  
             </a>    
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
@@ -145,7 +145,7 @@ include_once 'prices.php';
                 </div>  
             </a>    
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/4.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
@@ -173,7 +173,7 @@ include_once 'prices.php';
                 </div>  
             </a>    
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
@@ -201,7 +201,7 @@ include_once 'prices.php';
                 </div>  
             </a>    
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
@@ -229,7 +229,7 @@ include_once 'prices.php';
                 </div>  
             </a>    
             
-            <a href="#novelty-popap" class="fancybox">
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
                     <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
                     <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
@@ -262,8 +262,8 @@ include_once 'prices.php';
 </section>
 
 
-<div id="novelty-popap" class= "novelty_popap-wrapper">
-    <div class="novelty_popap fade">
+<div id="novelty-popap" class="novelty_popap-wrapper">
+    <div class="novelty_popap">
             <div class="novelty_popap-left">
                 <div class="novelty_popap-img-block">
                     <img src="" alt="" class="novelty_popap-img novelty_popap-img-1 novelty_popap-img-main">
