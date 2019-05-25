@@ -74,7 +74,86 @@
 		&-hidden{
 			display: none;
 		}
+	}
+	&_popap {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		-webkit-user-select: none;
+		   -moz-user-select: none;
+		    -ms-user-select: none;
+		        user-select: none;
+		cursor: default;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		span{
+			font-weight: normal;
+		}
+		&-price-s{
+			font-weight: normal;
+		}
+		&-title{
+			font-size: 20px;
+			margin: 0 0 10px 0;
+		}
+		&-album{
+			font-size: 16px;
+			font-weight: normal;
+			&:after{
+				content: '';
+				display: block;
+				width: 100%;
+				margin-top: 20px;
+				border-bottom: 2px solid black; 
+			}
+		}
 
+		&-wrapper{
+			display: none;
+		}
+		&-left,
+		&-right{
+			width: 50%;
+			min-height: 415px;
+		}
+		&-img{
+			max-width: 310px;
+			max-height: 310px;
+			border-radius: 5px;
+
+			&-block{
+				position: relative;
+			}
+
+			&-1{
+				position:absolute;
+				top:0;
+				left: 0;
+				width: 310px;
+				height: 310px;
+			}
+			&-2{
+				position:absolute;
+				top:315px;
+				left: 0;
+				width: 100px;
+				height: 100px;
+			}
+			&-3{
+				position: absolute;
+				left: 105px;
+				top: 315px;
+				width: 100px;
+				height: 100px;
+			}
+			&-4{
+				position: absolute;
+				left: 210px;
+				top: 315px;
+				width: 100px;
+				height: 100px;
+			}
+		}
 	}
 }
 
@@ -115,59 +194,5 @@
 .fancybox-image, .fancybox-inner, .fancybox-nav, .fancybox-nav span, .fancybox-outer, .fancybox-skin, .fancybox-tmp, .fancybox-wrap, .fancybox-wrap iframe, .fancybox-wrap object{
 	border-radius:10px;
 }
-.novelty_popap {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	&-wrapper{
-		display: none;
-	}
-	&-left,
-	&-right{
-		width: 50%;
-		min-height: 415px;
-	}
-	/* &-left{*/
-	/* 	background-color: rgba(226, 226, 226, 0.5);*/
-	/* }*/
-	&-img{
-		max-width: 310px;
-		max-height: 310px;
-		border-radius: 5px;
 
-		&-block{
-			position: relative;
-		}
 
-		&-1{
-			position:absolute;
-			top:0;
-			left: 0;
-			width: 310px;
-			height: 310px;
-		}
-		&-2{
-			position:absolute;
-			top:315px;
-			left: 0;
-			width: 100px;
-			height: 100px;
-		}
-		&-3{
-			position: absolute;
-			left: 105px;
-			top: 315px;
-			width: 100px;
-			height: 100px;
-		}
-		&-4{
-			position: absolute;
-			left: 210px;
-			top: 315px;
-			width: 100px;
-			height: 100px;
-		}
-
-	}
-
-}

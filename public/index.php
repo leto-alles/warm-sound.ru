@@ -77,7 +77,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -105,7 +104,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -133,7 +131,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -161,7 +158,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -189,7 +185,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -217,7 +212,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -245,7 +239,6 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-type>LP</li>
                         <li class="novelty_block-hidden_options" data-label>Мелодия</li>
                         <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-released>1976</li>
                         <li class="novelty_block-hidden_options" data-label_disc>UAS 29885</li>
                         <li class="novelty_block-hidden_options" data-short_description>This is minimalistic, but fantastic album famous group in the world.</li>
                         <li class="novelty_block-hidden_options" data-full_description>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</li>
@@ -276,9 +269,13 @@ include_once 'prices.php';
             <div class="novelty_popap-right">
                 <h3 class="novelty_popap-title"></h3>
                 <p class="novelty_popap-album"></p>
-                <p class="novelty_popap-type"></p>
-                <p class="novelty_popap-label"></p>
-                <p class="novelty_popap-country"></p>
+                <p class="novelty_popap-type">Формат: <span></span></p>
+                <p class="novelty_popap-label">Производитель: <span></span></p>
+                <p class="novelty_popap-country">Страна: <span></span></p>
+                <p class="novelty_popap-label_disc">Кат.номер: <span></span></p>
+                <p class="novelty_popap-envelope_status">Состояние конверта: <span></span></p>
+                <p class="novelty_popap-plate_status">Состояние пластинки: <span></span></p>
+                <p class="novelty_popap-price">Цена: <span class="novelty_popap-cost"></span> <span class="novelty_popap-price-s">&#8381;</span></p>
             </div>
     </div>
 </div>
@@ -293,5 +290,12 @@ include_once 'prices.php';
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" defer="defer"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/lightzoom.min.js"></script>
+	<script>
+
+
+
+
+</script>
 </body>
 </html>

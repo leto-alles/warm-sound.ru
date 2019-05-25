@@ -21,7 +21,6 @@
                         <li class="novelty_block-hidden_options" data-type>{{ item.type }}</li>
                         <li class="novelty_block-hidden_options" data-label>{{ item.label }}</li>
                         <li class="novelty_block-hidden_options" data-country>{{ item.country }}</li>
-                        <li class="novelty_block-hidden_options" data-released>{{ item.released }}</li>
                         <li class="novelty_block-hidden_options" data-label_disc>{{ item.label_disc }}</li>
                         <li class="novelty_block-hidden_options" data-short_description>{{ item.short_description }}</li>
                         <li class="novelty_block-hidden_options" data-full_description>{{ item.full_description }}</li>
@@ -52,9 +51,13 @@
             <div class="novelty_popap-right">
                 <h3 class="novelty_popap-title"></h3>
                 <p class="novelty_popap-album"></p>
-                <p class="novelty_popap-type"></p>
-                <p class="novelty_popap-label"></p>
-                <p class="novelty_popap-country"></p>
+                <p class="novelty_popap-type">Формат: <span></span></p>
+                <p class="novelty_popap-label">Производитель: <span></span></p>
+                <p class="novelty_popap-country">Страна: <span></span></p>
+                <p class="novelty_popap-label_disc">Кат.номер: <span></span></p>
+                <p class="novelty_popap-envelope_status">Состояние конверта: <span></span></p>
+                <p class="novelty_popap-plate_status">Состояние пластинки: <span></span></p>
+                <p class="novelty_popap-price">Цена: <span class="novelty_popap-cost"></span> <span class="novelty_popap-price-s">&#8381;</span></p>
             </div>
     </div>
 </div>

@@ -37,5 +37,12 @@ include_once 'prices.php';
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" defer="defer"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/lightzoom.min.js"></script>
+	<script>
+
+
+
+
+</script>
 </body>
 </html>
