@@ -175,6 +175,7 @@
 			width: 50%;
 			transition: 0.5s;
 			transition-timing-function: ease-in-out;
+			border-radius: 25px;
 
 		}
 		&-album{
@@ -195,4 +196,6 @@
 	border-radius:10px;
 }
 
+@media (max-width:767px){
 
+}

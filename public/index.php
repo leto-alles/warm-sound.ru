@@ -291,6 +291,7 @@ include_once 'prices.php';
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/lightzoom.min.js"></script>
+	
 	<script>
 
 

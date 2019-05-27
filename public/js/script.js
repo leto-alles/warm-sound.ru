@@ -217,9 +217,15 @@ $(document).ready(function() {
 		$this_pic.attr('src', $target_pic);
 	});
 	
-		$('.novelty_popap-img-main').lightzoom({
-            zoomPower   : 5,    //Default
-            glassSize   : 150,  //Default
-        });
+
+	
+	if ( $(window).width() > 1025 ) {
+		 $('.novelty_popap-img-main').lightzoom({
+         zoomPower   : 5,    //Default
+         glassSize   : 150,  //Default
+    	 });
+	}
+		
+
 
 });
