@@ -218,8 +218,8 @@ $(document).ready(function() {
 	});
 	
 		$('.novelty_popap-img-main').lightzoom({
-            zoomPower   : 3,    //Default
-            glassSize   : 180,  //Default
+            zoomPower   : 5,    //Default
+            glassSize   : 150,  //Default
         });
 
 });
