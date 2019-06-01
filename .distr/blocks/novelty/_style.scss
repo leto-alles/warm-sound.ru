@@ -1,7 +1,6 @@
 .novelty{
     min-height: 800px;
     background-color: black;
-    height: 900px;
     &:before{
         content: "";
         display: inline-block;
@@ -17,7 +16,10 @@
 		text-align: right;
 	}
 	&_block{
-		height: 350px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
 		&-trg{
 			outline: none;
 		}
@@ -25,6 +27,7 @@
     		position: relative;
     		background-color: transparent;
     		height: 350px;
+    		width:350px;
     		margin: 0 10px;
     		overflow: hidden;
     		cursor: pointer;
@@ -159,11 +162,14 @@
 
 /* animation-part */
 .novelty_block-item:hover{
+
 	.novelty_block{
 
 		&-img{
-		opacity:0.6 !important;
+		/*opacity:0.6 !important;*/
 		transition: 1s;
+		transform:scale(-1);
+		opacity: 0;
 		}
 		&-title{
 			color: #ffffff;

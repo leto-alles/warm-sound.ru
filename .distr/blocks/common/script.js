@@ -1,6 +1,6 @@
 $(function () {
 	/* Inits */
-	initCarousel();
+/*	initCarousel();*/
 	initFancybox();
 	scrollNovelty();
 	topMenu();
@@ -99,7 +99,7 @@ $(function () {
 	    });
 	}
 
-	function initCarousel(){
+/*	function initCarousel(){
 		$('.slick-novelty').slick({
 			dots: true,
 			dotsClass: "my-dots",
@@ -110,8 +110,6 @@ $(function () {
 			slidesToScroll: 1,
 			lazyLoad: 'ondemand',
 			arrows: false,
-			/*nextArrow: '<div class="slick-next">&#8669;</div>',
-			prevArrow: '<div class="slick-prew">&#8668;</div>',*/	
 			responsive: [
 		    {
 		      breakpoint: 1200,
@@ -140,7 +138,7 @@ $(function () {
 		    }
 		  	] 
 		});
-	}
+	}*/
 
 
 	function topMenu(){
