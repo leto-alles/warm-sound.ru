@@ -13,12 +13,12 @@ $(function () {
 		$(document).on('fancybox.init', '.fancybox', function () {
 			var
 			defaults = {
-				width: 1180,
+				width: 'auto',
 				autoSize: false,
 				autoHeight: true,
 				// maxWidth: 1180,
 				minWidth: 320,
-				autoResize: true,
+				// autoResize: true,
 				padding: 0,
 				margin: 0,
 				helpers: {

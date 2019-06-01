@@ -186,12 +186,16 @@
 }
 
 
-.fancybox-wrap,
-.fancybox-inner{
-	width: 650px !important;
+// .fancybox-wrap,
+// .fancybox-inner{
+// 	width: 650px !important;
+// 	padding: 10px;
+// }
+.novelty_popap-wrapper{
+	width: 650px;
+	height: 420px;
 	padding: 10px;
 }
-
 .fancybox-image, .fancybox-inner, .fancybox-nav, .fancybox-nav span, .fancybox-outer, .fancybox-skin, .fancybox-tmp, .fancybox-wrap, .fancybox-wrap iframe, .fancybox-wrap object{
 	border-radius:10px;
 }
