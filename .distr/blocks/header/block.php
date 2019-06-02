@@ -18,9 +18,9 @@
 
 </section>
 
-<div class="header-background">
-    <h1 class="header-background-title">warm-sound</h1>
-</div>
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 $(function () {
 	/* Inits */
-/*	initCarousel();*/
+	initCarousel();
 	initFancybox();
 	scrollNovelty();
 	topMenu();
@@ -99,7 +99,7 @@ $(function () {
 	    });
 	}
 
-/*	function initCarousel(){
+	function initCarousel(){
 		$('.slick-novelty').slick({
 			dots: true,
 			dotsClass: "my-dots",
@@ -138,7 +138,7 @@ $(function () {
 		    }
 		  	] 
 		});
-	}*/
+	}
 
 
 	function topMenu(){
