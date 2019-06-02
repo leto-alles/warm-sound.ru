@@ -233,3 +233,5 @@ $(document).ready(function() {
 
 
 });
+
+//=require header_title/script.js

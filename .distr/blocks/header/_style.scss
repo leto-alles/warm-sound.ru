@@ -46,21 +46,6 @@ $anim_time: 1s;
     height: 550px;
     box-sizing: border-box;
 
-    &-title{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 74px;
-      color: #FFFFFF;
-      text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
-      letter-spacing: 0.5px;
-      text-align: center;
-      cursor: default;
-      -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-        margin:0 auto;
-        padding-top: 215px;
-    }
   }
 
   &__menu-btn,
@@ -76,9 +61,7 @@ $anim_time: 1s;
   .header-background{
     height: 500px;
 }
-  .header-background-title{
-    padding-top: 260px;
-}
+
 }
 
 @media (max-width:550px){
@@ -87,9 +70,7 @@ $anim_time: 1s;
     &:after{
       border-width: 100px 1000px 0 0;
     }
-    &-background-title {
-    padding-top: 110px;
-    }
+
     &-background {
     height: 355px;
   }
