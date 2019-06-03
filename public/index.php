@@ -63,13 +63,12 @@ include_once 'prices.php';
         <h2 class="section-title novelty-title">Новые поступления</h2>
         <div class="novelty_block slick-novelty"> 
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>The Police</h3>
+                    <img data-lazy="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>The Police</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>Synchronicity</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>Synchronicity</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/common/police/synchronicity/pic-1.jpg</li>
@@ -88,17 +87,15 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
                         <li class="novelty_block-hidden_options" data-price>1200</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>Coltrane John</h3>
+                    <img data-lazy="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>Coltrane John</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>My Favorite Things</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>My Favorite Things</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/common/coltrane/My Favorite Things/pic-1.jpg</li>
@@ -117,17 +114,15 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
                         <li class="novelty_block-hidden_options" data-price>2300</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/novelty/beatles/white/3.JPG"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
+                    <img data-lazy="/img/novelty/beatles/white/3.JPG"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>White Album</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>White Album</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/novelty/beatles/white/3.JPG</li>
@@ -146,17 +141,15 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>G</li>
                         <li class="novelty_block-hidden_options" data-price>400</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/novelty/beatles/white/4.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
+                    <img data-lazy="/img/novelty/beatles/white/4.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>White Album</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>White Album</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/novelty/beatles/white/4.jpg</li>
@@ -175,17 +168,15 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>G</li>
                         <li class="novelty_block-hidden_options" data-price>400</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
+                    <img data-lazy="/img/novelty/beatles/white/1.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>White Album</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>White Album</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/novelty/beatles/white/1.jpg</li>
@@ -204,17 +195,15 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>G</li>
                         <li class="novelty_block-hidden_options" data-price>400</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
+                    <img data-lazy="/img/novelty/beatles/white/2.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>White Album</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>White Album</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/novelty/beatles/white/2.jpg</li>
@@ -233,17 +222,15 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>G</li>
                         <li class="novelty_block-hidden_options" data-price>400</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
             
-            
+            <a href="#novelty-popap" class="fancybox novelty_block-trg">
                 <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="novelty_block-trg fancybox">
-                    <img src="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
-                   <!--  <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
+                    <img data-lazy="/img/novelty/beatles/white/3.jpg"  alt="White Album The Beatles LP" data-pic class="novelty_block-img vinyl-img" data-pic>
+                    <h3 class="novelty_block-title vinyl-title" data-name>The Beatles</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>White Album</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>White Album</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>/img/novelty/beatles/white/3.jpg</li>
@@ -262,9 +249,8 @@ include_once 'prices.php';
                         <li class="novelty_block-hidden_options" data-plate_status>G</li>
                         <li class="novelty_block-hidden_options" data-price>400</li>
                     </ul>
-                    </a> 
                 </div>  
-               
+            </a>    
           
         </div>
     </div>
