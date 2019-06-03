@@ -103,7 +103,7 @@ $(function () {
 			dotsClass: "my-dots",
 			centerMode: false,
 			infinite: true,
-			speed: 1500,
+			speed: 200,
 			slidesToShow: 4,
 			slidesToScroll: 1,
 			lazyLoad: 'ondemand',
@@ -131,8 +131,7 @@ $(function () {
 		        slidesToShow: 1,
 		        slidesToScroll: 1,
 		        centerMode: true,
-		 		centerPadding: '5px',
-		 		speed: 1500
+		 		centerPadding: '5px'
 		      }
 		    }
 		  	] 
@@ -164,13 +163,6 @@ $(function () {
 });
 
 
-
-/*$(function() {
-    let showMoreBtn = $('.novelty_show-more');
-    showMoreBtn.on('click', function () {
-        $('.novelty_block-item').toggleClass('block-closed block-opened');
-    });
-});*/
 
 $(document).ready(function() {
 

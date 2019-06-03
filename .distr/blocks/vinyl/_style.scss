@@ -192,7 +192,11 @@
 }
 
 
-
+// .fancybox-wrap,
+// .fancybox-inner{
+// 	width: 650px !important;
+// 	padding: 10px;
+// }
 .novelty_popap-wrapper{
 	width: 650px;
 	height: 420px;
@@ -203,12 +207,5 @@
 }
 
 @media (max-width:767px){
-.novelty_popap-wrapper{
-	width: 320px;
-	height: 420px;
-	padding: 10px;
-}
-.novelty_popap{
-	flex-direction: column;
-}
+
 }

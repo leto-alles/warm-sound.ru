@@ -5,6 +5,7 @@ $anim_time: 1s;
     display: block;
     height: 50px;
     width: 100%;
+    position:relative;
 
   &__nav {
   display: flex;
@@ -33,11 +34,13 @@ $anim_time: 1s;
   &:after{
     content: "";
     display: inline-block;
-    width: 0;
-    height: 0;
     border-style: solid;
     border-width: 200px 2000px 0 0;
     border-color: #000000 transparent transparent transparent;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 10;
   }
   &-background{
     background-image: url("/img/header/background-phone.png"); 
@@ -69,6 +72,7 @@ $anim_time: 1s;
     height: 100px;
     &:after{
       border-width: 100px 1000px 0 0;
+      top:100px;
     }
 
     &-background {
@@ -112,6 +116,7 @@ $anim_time: 1s;
     top:40px;
     width: calc(100% - 120px);
     padding-left: 25px;
+    z-index: 15;
     
   }
   .header__m-nav-link {
@@ -126,6 +131,7 @@ $anim_time: 1s;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    
   }
 
 
