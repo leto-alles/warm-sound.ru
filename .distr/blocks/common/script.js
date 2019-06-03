@@ -15,10 +15,8 @@ $(function () {
 			defaults = {
 				width: 'auto',
 				autoSize: false,
-				autoHeight: true,
-				// maxWidth: 1180,
-				minWidth: 320,
-				// autoResize: true,
+				autoHeight: true,				
+				minWidth: 320,				
 				padding: 0,
 				margin: 0,
 				helpers: {
@@ -133,7 +131,8 @@ $(function () {
 		        slidesToShow: 1,
 		        slidesToScroll: 1,
 		        centerMode: true,
-		 		centerPadding: '5px'
+		 		centerPadding: '5px',
+		 		speed: 1500
 		      }
 		    }
 		  	] 
