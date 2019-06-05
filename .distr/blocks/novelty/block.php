@@ -9,9 +9,9 @@
                 <div class="novelty_block-item">
                     <a href="#novelty-popap" class="fancybox novelty_block-trg">
                     <img data-lazy="{{ item.photo_main }}"  alt="{{ item.photo_alt }}" data-pic class="novelty_block-img vinyl-img" data-pic>
-                    <!-- <h3 class="novelty_block-title vinyl-title" data-name>{{ item.title_artist }}</h3>
+                     <h3 class="novelty_block-title vinyl-title" data-name>{{ item.title_artist }}</h3>
                     <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>{{ item.title_album }}</p> -->
+                    <p class="novelty_block-album vinyl-album" data-album>{{ item.title_album }}</p>
 
                     <ul class="novelty_block-hidden">
                         <li class="novelty_block-hidden_options" data-photo_main>{{ item.photo_main }}</li>
@@ -52,13 +52,15 @@
             <div class="novelty_popap-right">
                 <h3 class="novelty_popap-title"></h3>
                 <p class="novelty_popap-album"></p>
-                <p class="novelty_popap-type">Формат: <span></span></p>
-                <p class="novelty_popap-label">Производитель: <span></span></p>
-                <p class="novelty_popap-country">Страна: <span></span></p>
-                <p class="novelty_popap-label_disc">Кат.номер: <span></span></p>
-                <p class="novelty_popap-envelope_status">Состояние конверта: <span></span></p>
-                <p class="novelty_popap-plate_status">Состояние пластинки: <span></span></p>
-                <p class="novelty_popap-price">Цена: <span class="novelty_popap-cost"></span> <span class="novelty_popap-price-s">&#8381;</span></p>
+                <div class="novelty_popap-container">
+                    <p class="novelty_popap-type">Формат: <span></span></p>
+                    <p class="novelty_popap-label">Производитель: <span></span></p>
+                    <p class="novelty_popap-country">Страна: <span></span></p>
+                    <p class="novelty_popap-label_disc">Кат.номер: <span></span></p>
+                    <p class="novelty_popap-envelope_status">Состояние конверта: <span></span></p>
+                    <p class="novelty_popap-plate_status">Состояние пластинки: <span></span></p>
+                    <p class="novelty_popap-price">Цена: <span class="novelty_popap-cost"></span> <span class="novelty_popap-price-s">&#8381;</span></p>
+                </div>
             </div>
     </div>
 </div>

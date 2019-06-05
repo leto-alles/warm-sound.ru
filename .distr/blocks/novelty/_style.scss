@@ -1,7 +1,7 @@
 .novelty{
-    min-height: 800px;
+    // min-height: 800px;
     background-color: black;
-    height: 900px;
+    // height: 900px;
     padding-top: 35px;
     position: relative;
     &:before{
@@ -24,6 +24,7 @@
 	}
 	&_block{
 		height: 350px;
+		margin-bottom: 50px;
 		&-trg{
 			outline: none;
 		}
@@ -205,10 +206,74 @@
 @media (max-width:767px){
 .novelty_popap-wrapper{
 	width: 320px;
-	height: 420px;
+	height: auto;
 	padding: 10px;
 }
+.novelty_popap-right{
+	width:100%;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	min-height: inherit;
+}
+
 .novelty_popap{
 	flex-direction: column;
+
+	&-title{
+		margin:0;
+	}
+	&-album{
+		line-height: 18px;
+		margin:0;
+		padding-top: 5px;
+	}
+	&-container{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	&-type{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		order: 1;
+		margin-bottom: 0;
+	}
+	&-country{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		order: 2;
+		margin-bottom: 0;
+	}
+	&-label{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		order: 3;
+	}
+	&-label_disc{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		order: 4;		
+	}
+	&-plate_status{
+		width: 100%;
+		order:5;
+		margin: 0;
+	}
+	&-envelope_status{
+		width: 100%;
+		order:6;
+		margin: 0;
+	}
+	&-price{
+		width: 100%;
+		order:7;
+	}
 }
+
 }

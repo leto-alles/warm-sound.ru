@@ -3,6 +3,7 @@ $(function () {
 	initCarousel();
 	initFancybox();
 	scrollNovelty();
+	scrollVinyl();
 	topMenu();
 
 	/* Functions */
@@ -93,6 +94,12 @@ $(function () {
 	function scrollNovelty(){
 	    $('.link-novelty').on('click', function(e){
 	        $('html,body').stop().animate({ scrollTop: $('#novelty').offset().top }, 1000);
+	        e.preventDefault();
+	    });
+	}
+	function scrollVinyl(){
+	    $('.link-vinyl').on('click', function(e){
+	        $('html,body').stop().animate({ scrollTop: $('#vinyl').offset().top }, 1000);
 	        e.preventDefault();
 	    });
 	}

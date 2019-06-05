@@ -30,7 +30,7 @@ include_once 'prices.php';
 		{% include 'header/block.php' %}
 		{% include 'header_title/block.php' %}
 		{% include 'novelty/block.php' %}
-		{% include 'novelty/block.php' %}
+		{% include 'vinyl/block.php' %}
 		
 	</div>
 
