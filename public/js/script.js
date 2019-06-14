@@ -183,7 +183,7 @@ $(document).ready(function() {
 		let $pic3 = $('[data-photo_3]', $card).html();
 		let $pic4 = $('[data-photo_4]', $card).html();
 		let $type = $('[data-type]', $card).html();
-		let $label = $('[data-label]', $card).html();
+		let $label = $('[data-label]', $card).text();
 		let $country = $('[data-country]', $card).html();
 		let $label_disc = $('[data-label_disc]', $card).html();
 		let $envelope_status = $('[data-envelope_status]', $card).html();
@@ -227,3 +227,9 @@ $(document).ready(function() {
 });
 
 //=require header_title/script.js
+$(document).ready(function() {
+	$('.vinyl_tab').on('click', function(){
+		$('.vinyl_tab').removeClass('tab_active');
+  		$(this).addClass('tab_active');
+	});
+});

@@ -272,12 +272,53 @@ include_once 'prices.php';
     <div class="container">
         <h2 class="section-title vinyl-title">Винил</h2>
 
+        <div class="vinyl_tab-block">
+			<div class="vinyl_tab vinyl_tab_ru tab_active ta">Отечественный винил</div>
+			<div class="vinyl_tab vinyl_tab_en">Иностранный винил</div>
+		</div>
 
 
 
-        <div class="novelty_block "> 
+        <div class="vinyl_block vinyl_block_active" id="vinyl_block_ru"> 
+            
+                <div class="vinyl_block-item">
+                   
+ 
+                  
+                </div>     
+            
+                <div class="vinyl_block-item">
+                   
+ 
+                  
+                </div>     
+            
+                <div class="vinyl_block-item">
+                   
+ 
+                  
+                </div>     
+            
+                <div class="vinyl_block-item">
+                   
+ 
+                  
+                </div>     
+            
+                <div class="vinyl_block-item">
+                   
+ 
+                  
+                </div>     
+            
+                <div class="vinyl_block-item">
+                   
+ 
+                  
+                </div>     
           
         </div>
+
     </div>
 </section>
 
