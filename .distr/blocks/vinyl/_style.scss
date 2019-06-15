@@ -16,7 +16,7 @@
 		width: 80%;
 		font-family: 'Montserrat', sans-serif;
 		text-transform: uppercase;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 22px;
 		color: #ffffff;
 		text-align: center;
@@ -38,7 +38,73 @@
 			width: 100%;
 			justify-content: center;
 			align-items: center;
+
+		}
+	}
+	&_btn-more{
+		background: #ffa500;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		margin:0 auto;
+	    display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	    cursor: default;
+	    user-select: none;
+	    position: relative;
+	    &:before{
+			content: '';
+			width: 130px;
+			height: 0;
+			position: absolute;
+			left: -41px;
+			top: 23px;
+			border: 2px solid #ffa500;
+			border-radius: 5px;
+
+	    }
+	    &-decoration{
+		font-family: 'Montserrat', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 50px;
+	    line-height: 0;
+	   	text-align: center;
+		animation: rotate 7s linear infinite;
+	    }
+	}
+	&_btn-up{
+		width: 50px;
+	    height: 50px;
+	    background-color: rgba(255, 255, 255, 0.5);
+	    position: absolute;
+	    bottom: 80px;
+	    right: 25px;
+	    border-radius: 50%;
+	}
+
+
+	&_block{
+		padding:10px;
+		background-color: #000000;
+		&-item{
+			width:300px;
+			height:300px;
+			margin: 5px auto;
+			position: relative;
+
+		}
+		&-img{
+			width:300px;
+			height:300px;
 		}
 	}
 
 }
+@keyframes rotate {
+		  from {
+		    transform: rotate(360deg);
+		    transform-origin: 50% 50%;
+		  }
+		}

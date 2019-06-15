@@ -272,7 +272,7 @@ include_once 'prices.php';
     <div class="container">
         <h2 class="section-title vinyl-title">Винил</h2>
 
-        <div class="vinyl_tab-block">
+        <div class="vinyl_tab-block" id="vinyl_tab-change">
 			<div class="vinyl_tab vinyl_tab_ru tab_active ta">Отечественный винил</div>
 			<div class="vinyl_tab vinyl_tab_en">Иностранный винил</div>
 		</div>
@@ -280,43 +280,95 @@ include_once 'prices.php';
 
 
         <div class="vinyl_block vinyl_block_active" id="vinyl_block_ru"> 
-            
+                
                 <div class="vinyl_block-item">
-                   
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
  
                   
                 </div>     
-            
+                
                 <div class="vinyl_block-item">
-                   
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
  
                   
                 </div>     
-            
+                
                 <div class="vinyl_block-item">
-                   
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
  
                   
                 </div>     
-            
+                
                 <div class="vinyl_block-item">
-                   
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
  
                   
                 </div>     
-            
+                
                 <div class="vinyl_block-item">
-                   
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
  
                   
                 </div>     
-            
+                
                 <div class="vinyl_block-item">
-                   
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
  
                   
                 </div>     
-          
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+                
+                <div class="vinyl_block-item">
+                   <img src="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="vinyl_block-img vinyl-img" data-pic>
+ 
+                  
+                </div>     
+             
+            <div class="vinyl_btn-up"></div> 
+            <div class="vinyl_btn-more more__link">
+                <div class="vinyl_btn-more-decoration">+</div>
+            </div>
         </div>
 
     </div>

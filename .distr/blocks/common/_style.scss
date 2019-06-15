@@ -11,6 +11,7 @@
 	max-width: 1400px;
 	margin: 0 auto;
 }
+
 .section-title{
 	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -26,7 +27,9 @@
 	margin-bottom: 45px;
   margin-top: 0;
 }
-
+.hidden-item{
+  display: none;
+}
 /*--- animation start---*/
 .slick-next,
 .slick-prew{
@@ -144,6 +147,6 @@ color: #FFFFFF;
     z-index: 9000;
 }
 
-@media (max-width:1025px){
+@media(max-width:1025px){
 
 }
