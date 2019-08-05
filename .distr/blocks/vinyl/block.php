@@ -13,7 +13,7 @@
 
 
         <div class="vinyl_block vinyl_block_active" id="vinyl_block_ru"> 
-            
+            <div class="container">    
             {% for item in ruItems %}    
                 <div class="vinyl_block-item">
                    <img src="{{ item.photo_main }}"  alt="{{ item.photo_alt }}" data-pic class="vinyl_block-img vinyl-img" data-pic>
@@ -46,6 +46,7 @@
                         <use x="0" y="0" xlink:href="#i-2187"/>
                     </svg>
                 </div>
+            </div>
             </div>
         </div>
 
