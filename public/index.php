@@ -280,7 +280,7 @@ include_once 'prices.php';
 
 
         <div class="vinyl_block vinyl_block_active" id="vinyl_block_ru"> 
-            
+            <div class="container">    
                 
                 <div class="vinyl_block-item">
                    <img src="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="vinyl_block-img vinyl-img" data-pic>
@@ -391,6 +391,7 @@ include_once 'prices.php';
                         <use x="0" y="0" xlink:href="#i-2187"/>
                     </svg>
                 </div>
+            </div>
             </div>
         </div>
 
