@@ -43,6 +43,7 @@ include_once 'prices.php';
         <a href="#information" class="header__nav-link link-info">Инфо</a>
 		<a href="#contacts" class="header__nav-link link-contacts">Контакты</a>
 	</nav>
+
     <div class="header__menu-btn" id="menu-btn">
         <span class="icon"></span>
         <h2 class="text">Меню</h2>
@@ -63,217 +64,15 @@ include_once 'prices.php';
 
 
 		<section class="header_title">
-    <h1 class="header_title-name">Warm-Sound</h1>
+    <div class="header_title-top">
+        <svg class="header_title-poligon" version="1.1"  width="100%" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100" preserveAspectRatio="none" >
+            <polygon fill="#000000" points="0,100 0,0 100,0 100,20"/>
+        </svg>
+    </div>
+        <h1 class="header_title-name">Warm-Sound</h1>
+    <div class="header_title-back"></div>
 </section>
 		
-
-<section class="novelty" id="novelty">
-    <div class="container">
-        <h2 class="section-title novelty-title">Новые поступления</h2>
-        <div class="novelty_block slick-novelty"> 
-            
-            
-                <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="fancybox novelty_block-trg">
-                    <img data-lazy="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="novelty_block-img vinyl-img" data-pic>
-                     <h3 class="novelty_block-title vinyl-title" data-name>The Police</h3>
-                    <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>Synchronicity</p>
-
-                    <ul class="novelty_block-hidden">
-                        <li class="novelty_block-hidden_options" data-photo_main>/img/common/police/synchronicity/pic-1.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_2>/img/common/police/synchronicity/pic-2.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_3>/img/common/police/synchronicity/pic-3.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_4>/img/common/police/synchronicity/pic-4.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_alt>LP Police Synchronicity</li>
-                        <li class="novelty_block-hidden_options" data-type>LP</li>
-                        <li class="novelty_block-hidden_options" data-label>A&amp;M Records</li>
-                        <li class="novelty_block-hidden_options" data-country>UK</li>
-                        <li class="novelty_block-hidden_options" data-label_disc>AMLX 63735</li>
-                        <li class="novelty_block-hidden_options" data-short_description></li>
-                        <li class="novelty_block-hidden_options" data-full_description></li>
-                        <li class="novelty_block-hidden_options" data-remark>colored vinyl</li>
-                        <li class="novelty_block-hidden_options" data-envelope_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-price>1200</li>
-                    </ul>
-                    </a>  
-                </div>     
-            
-            
-                <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="fancybox novelty_block-trg">
-                    <img data-lazy="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="novelty_block-img vinyl-img" data-pic>
-                     <h3 class="novelty_block-title vinyl-title" data-name>Coltrane John</h3>
-                    <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>My Favorite Things</p>
-
-                    <ul class="novelty_block-hidden">
-                        <li class="novelty_block-hidden_options" data-photo_main>/img/common/coltrane/My Favorite Things/pic-1.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_2>/img/common/coltrane/My Favorite Things/pic-2.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_3>/img/common/coltrane/My Favorite Things/pic-3.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_4>/img/common/coltrane/My Favorite Things/pic-4.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_alt>LP Coltrane John My Favorite Things</li>
-                        <li class="novelty_block-hidden_options" data-type>2 LP</li>
-                        <li class="novelty_block-hidden_options" data-label>Not Now Music</li>
-                        <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-label_disc>NOT2LP149</li>
-                        <li class="novelty_block-hidden_options" data-short_description></li>
-                        <li class="novelty_block-hidden_options" data-full_description></li>
-                        <li class="novelty_block-hidden_options" data-remark>colored vinyl</li>
-                        <li class="novelty_block-hidden_options" data-envelope_status>5/5</li>
-                        <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-price>2300</li>
-                    </ul>
-                    </a>  
-                </div>     
-            
-            
-                <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="fancybox novelty_block-trg">
-                    <img data-lazy="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="novelty_block-img vinyl-img" data-pic>
-                     <h3 class="novelty_block-title vinyl-title" data-name>The Police</h3>
-                    <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>Synchronicity</p>
-
-                    <ul class="novelty_block-hidden">
-                        <li class="novelty_block-hidden_options" data-photo_main>/img/common/police/synchronicity/pic-1.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_2>/img/common/police/synchronicity/pic-2.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_3>/img/common/police/synchronicity/pic-3.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_4>/img/common/police/synchronicity/pic-4.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_alt>LP Police Synchronicity</li>
-                        <li class="novelty_block-hidden_options" data-type>LP</li>
-                        <li class="novelty_block-hidden_options" data-label>A&amp;M Records</li>
-                        <li class="novelty_block-hidden_options" data-country>UK</li>
-                        <li class="novelty_block-hidden_options" data-label_disc>AMLX 63735</li>
-                        <li class="novelty_block-hidden_options" data-short_description></li>
-                        <li class="novelty_block-hidden_options" data-full_description></li>
-                        <li class="novelty_block-hidden_options" data-remark>colored vinyl</li>
-                        <li class="novelty_block-hidden_options" data-envelope_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-price>1200</li>
-                    </ul>
-                    </a>  
-                </div>     
-            
-            
-                <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="fancybox novelty_block-trg">
-                    <img data-lazy="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="novelty_block-img vinyl-img" data-pic>
-                     <h3 class="novelty_block-title vinyl-title" data-name>Coltrane John</h3>
-                    <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>My Favorite Things</p>
-
-                    <ul class="novelty_block-hidden">
-                        <li class="novelty_block-hidden_options" data-photo_main>/img/common/coltrane/My Favorite Things/pic-1.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_2>/img/common/coltrane/My Favorite Things/pic-2.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_3>/img/common/coltrane/My Favorite Things/pic-3.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_4>/img/common/coltrane/My Favorite Things/pic-4.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_alt>LP Coltrane John My Favorite Things</li>
-                        <li class="novelty_block-hidden_options" data-type>2 LP</li>
-                        <li class="novelty_block-hidden_options" data-label>Not Now Music</li>
-                        <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-label_disc>NOT2LP149</li>
-                        <li class="novelty_block-hidden_options" data-short_description></li>
-                        <li class="novelty_block-hidden_options" data-full_description></li>
-                        <li class="novelty_block-hidden_options" data-remark>colored vinyl</li>
-                        <li class="novelty_block-hidden_options" data-envelope_status>5/5</li>
-                        <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-price>2300</li>
-                    </ul>
-                    </a>  
-                </div>     
-            
-            
-                <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="fancybox novelty_block-trg">
-                    <img data-lazy="/img/common/police/synchronicity/pic-1.jpg"  alt="LP Police Synchronicity" data-pic class="novelty_block-img vinyl-img" data-pic>
-                     <h3 class="novelty_block-title vinyl-title" data-name>The Police</h3>
-                    <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>Synchronicity</p>
-
-                    <ul class="novelty_block-hidden">
-                        <li class="novelty_block-hidden_options" data-photo_main>/img/common/police/synchronicity/pic-1.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_2>/img/common/police/synchronicity/pic-2.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_3>/img/common/police/synchronicity/pic-3.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_4>/img/common/police/synchronicity/pic-4.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_alt>LP Police Synchronicity</li>
-                        <li class="novelty_block-hidden_options" data-type>LP</li>
-                        <li class="novelty_block-hidden_options" data-label>A&amp;M Records</li>
-                        <li class="novelty_block-hidden_options" data-country>UK</li>
-                        <li class="novelty_block-hidden_options" data-label_disc>AMLX 63735</li>
-                        <li class="novelty_block-hidden_options" data-short_description></li>
-                        <li class="novelty_block-hidden_options" data-full_description></li>
-                        <li class="novelty_block-hidden_options" data-remark>colored vinyl</li>
-                        <li class="novelty_block-hidden_options" data-envelope_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-price>1200</li>
-                    </ul>
-                    </a>  
-                </div>     
-            
-            
-                <div class="novelty_block-item">
-                    <a href="#novelty-popap" class="fancybox novelty_block-trg">
-                    <img data-lazy="/img/common/coltrane/My Favorite Things/pic-1.jpg"  alt="LP Coltrane John My Favorite Things" data-pic class="novelty_block-img vinyl-img" data-pic>
-                     <h3 class="novelty_block-title vinyl-title" data-name>Coltrane John</h3>
-                    <p class="novelty_block-line"></p>
-                    <p class="novelty_block-album vinyl-album" data-album>My Favorite Things</p>
-
-                    <ul class="novelty_block-hidden">
-                        <li class="novelty_block-hidden_options" data-photo_main>/img/common/coltrane/My Favorite Things/pic-1.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_2>/img/common/coltrane/My Favorite Things/pic-2.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_3>/img/common/coltrane/My Favorite Things/pic-3.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_4>/img/common/coltrane/My Favorite Things/pic-4.jpg</li>
-                        <li class="novelty_block-hidden_options" data-photo_alt>LP Coltrane John My Favorite Things</li>
-                        <li class="novelty_block-hidden_options" data-type>2 LP</li>
-                        <li class="novelty_block-hidden_options" data-label>Not Now Music</li>
-                        <li class="novelty_block-hidden_options" data-country>USSSR</li>
-                        <li class="novelty_block-hidden_options" data-label_disc>NOT2LP149</li>
-                        <li class="novelty_block-hidden_options" data-short_description></li>
-                        <li class="novelty_block-hidden_options" data-full_description></li>
-                        <li class="novelty_block-hidden_options" data-remark>colored vinyl</li>
-                        <li class="novelty_block-hidden_options" data-envelope_status>5/5</li>
-                        <li class="novelty_block-hidden_options" data-plate_status>4/5</li>
-                        <li class="novelty_block-hidden_options" data-price>2300</li>
-                    </ul>
-                    </a>  
-                </div>     
-          
-        </div>
-    </div>
-</section>
-
-
-<div id="novelty-popap" class="novelty_popap-wrapper">
-    <div class="novelty_popap">
-            <div class="novelty_popap-left">
-                <div class="novelty_popap-img-block">
-                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-1 novelty_popap-img-main">
-                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-2 novelty_popap-img-second">
-                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-3 novelty_popap-img-second">
-                    <img src="" alt="" class="novelty_popap-img novelty_popap-img-4 novelty_popap-img-second">
-                </div>
-            </div>
-
-            <div class="novelty_popap-right">
-                <h3 class="novelty_popap-title"></h3>
-                <p class="novelty_popap-album"></p>
-                <div class="novelty_popap-container">
-                    <p class="novelty_popap-type">Формат: <span></span></p>
-                    <p class="novelty_popap-label">Производитель: <span></span></p>
-                    <p class="novelty_popap-country">Страна: <span></span></p>
-                    <p class="novelty_popap-label_disc">Кат.номер: <span></span></p>
-                    <p class="novelty_popap-envelope_status">Состояние конверта: <span></span></p>
-                    <p class="novelty_popap-plate_status">Состояние пластинки: <span></span></p>
-                    <p class="novelty_popap-price">Цена: <span class="novelty_popap-cost"></span> <span class="novelty_popap-price-s">&#8381;</span></p>
-                </div>
-            </div>
-    </div>
-</div>
-
-
-
 		
 		
 		

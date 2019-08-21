@@ -1,6 +1,6 @@
 $(function () {
 	/* Inits */
-	initCarousel();
+	// initCarousel();
 	initFancybox();
 	scrollNovelty();
 	scrollVinyl();

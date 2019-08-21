@@ -38,7 +38,7 @@ include_once 'prices.php';
 
 		{% include 'header/block.php' %}
 		{% include 'header_title/block.php' %}
-		{% include 'novelty_2/block.php' %}
+		{#% include 'novelty_2/block.php' %#}
 		{#% include 'novelty/block.php' %#}
 		{#% include 'vinyl/block.php'%#}
 		{#% include 'time/block.php' %#}

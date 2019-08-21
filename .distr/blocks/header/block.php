@@ -5,6 +5,7 @@
         <a href="#information" class="header__nav-link link-info">Инфо</a>
 		<a href="#contacts" class="header__nav-link link-contacts">Контакты</a>
 	</nav>
+
     <div class="header__menu-btn" id="menu-btn">
         <span class="icon"></span>
         <h2 class="text">Меню</h2>
