@@ -112,6 +112,7 @@ $anim_time: 1s;
       max-width: 576px;
       background: #000;
       padding: 0 45px;
+      box-shadow: 0px 1px 1px 0px #000000;
       &.d-show {
         transform: translateY(0px);
         transition: 0.5s;

@@ -1,8 +1,0 @@
-<section class="fix">
-</section>
-
-
-
-
-
-

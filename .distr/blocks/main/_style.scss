@@ -1,0 +1,23 @@
+.main{
+  min-height: 600px;
+  background-color: grey;
+  background-image: url("/img/main/bg3.jpg");
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  &__title{
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    background: linear-gradient(45deg, rgba(245, 93, 93, 0.8) 33%, #ff9900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+  }
+}

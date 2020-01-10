@@ -1,0 +1,9 @@
+.main{
+      @media (max-width:768px){
+            min-height: 450px;
+            &__title{
+                  transform: translate(-50%, -30%);
+                  font-size: 36px;
+            }
+      }
+}
