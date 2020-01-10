@@ -37,45 +37,53 @@ include_once 'prices.php';
 	<div class="wrapper">
 
 		<section class="header">
+
 	<nav class="header__nav">
-		<a href="#vinyl" class="header__nav-link link-vinyl">Винил</a>
-		<a href="#novelty" class="header__nav-link link-novelty">Новые поступления</a>
-        <a href="#information" class="header__nav-link link-info">Инфо</a>
-		<a href="#contacts" class="header__nav-link link-contacts">Контакты</a>
+		<a href="#vinyl" class="header__nav-link scroll">Винил</a>
+		<a href="#novelty" class="header__nav-link scroll">Новые поступления</a>
+        <a href="#information" class="header__nav-link scroll">Инфо</a>
+		<a href="#contacts" class="header__nav-link scroll">Контакты</a>
 	</nav>
 
-    <div class="header__menu-btn" id="menu-btn">
-        <span class="icon"></span>
-        <h2 class="text">Меню</h2>
-    </div>
-    <nav class="header__m-nav d-show">
-        <a href="#vinyl" class="header__m-nav-link link-vinyl">Винил</a>
-        <a href="#novelty" class="header__m-nav-link link-novelty">Новые поступления</a>
-        <a href="#information" class="header__m-nav-link link-info">Инфо</a>
-        <a href="#contacts" class="header__m-nav-link link-contacts">Контакты</a>
+
+
+    <nav class="header__m-nav h-show">
+        <a href="#vinyl" class="header__m-nav-link scroll">Винил</a>
+        <a href="#novelty" class="header__m-nav-link scroll">Новые поступления</a>
+        <a href="#information" class="header__m-nav-link scroll">Инфо</a>
+        <a href="#contacts" class="header__m-nav-link scroll">Контакты</a>
     </nav>
 
-</section>
-
-
-
-
-
-
-
-		<section class="header_title">
-    <div class="header_title-top">
-        <svg class="header_title-poligon" version="1.1"  width="100%" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100" preserveAspectRatio="none" >
-            <polygon fill="#000000" points="0,100 0,0 100,0 100,20"/>
-        </svg>
+    <div class="header__menu-btn" id="menu-btn">
+        <h2 class="header__menu-btn_title">Меню</h2>
     </div>
-        <h1 class="header_title-name">Warm-Sound</h1>
-    <div class="header_title-back"></div>
+
 </section>
-		
-		
-		
-		
+
+
+
+
+
+
+
+		<section class="fix">
+</section>
+
+
+
+
+
+
+
+		<section class="fix2" id="information">
+</section>
+
+
+
+
+
+
+
 
 	</div>
 

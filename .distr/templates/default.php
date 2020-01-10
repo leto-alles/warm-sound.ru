@@ -37,11 +37,8 @@ include_once 'prices.php';
 	<div class="wrapper">
 
 		{% include 'header/block.php' %}
-		{% include 'header_title/block.php' %}
-		{#% include 'novelty_2/block.php' %#}
-		{#% include 'novelty/block.php' %#}
-		{#% include 'vinyl/block.php'%#}
-		{#% include 'time/block.php' %#}
+		{% include 'fix/block.php' %}
+		{% include 'fix2/block.php' %}
 
 	</div>
 
