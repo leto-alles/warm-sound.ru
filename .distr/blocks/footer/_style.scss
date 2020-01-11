@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    min-height: 50px;
+    &__link{
+      color: #b6b6b6;
+      font-size: 14px;
+      text-transform: uppercase;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      &:hover{
+        color: #FFFFFF;
+      }
+    }
+}

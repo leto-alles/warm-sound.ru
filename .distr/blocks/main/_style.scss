@@ -13,11 +13,14 @@
     font-size: 46px;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -85%);
+    /* left: 50%;*/
+    /* transform: translate(-50%, -85%);*/
     background: linear-gradient(45deg, rgba(245, 93, 93, 0.8) 33%, #ff9900);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 }

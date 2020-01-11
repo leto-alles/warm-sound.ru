@@ -9,7 +9,8 @@ $mobile-min-width: 320px;
 /* Blocks */
 @import 'header/_responsive';
 @import 'main/_responsive';
+@import 'footer/_responsive';
 
 /***********/
 /* Popups */
-//@import 'popup-tickets/_responsive';
+@import 'policy/_responsive';

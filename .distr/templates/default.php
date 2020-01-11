@@ -39,11 +39,12 @@ include_once 'prices.php';
 		{% include 'header/block.php' %}
 		{% include 'main/block.php' %}
 		{% include 'fix2/block.php' %}
+		{% include 'footer/block.php' %}
 
 	</div>
 
 	<div class="d-none">
-		{#% include 'policy/block.php' %#}
+		{% include 'policy/block.php' %}
 	</div><!-- d-none -->
 
 	{% endblock %}

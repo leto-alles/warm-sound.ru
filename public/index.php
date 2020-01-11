@@ -85,11 +85,30 @@ include_once 'prices.php';
 
 
 
+		<footer class="footer">
+      <a href="#policy" class="footer__link footer__link-privacy fancybox">Политика конфиденциальности</a>
+</footer>
+
+
+
+
+
+
+
 
 	</div>
 
 	<div class="d-none">
-		
+		<div class="policy" id="policy">
+	<p class="policy__text">бла-бла-бла</p>
+</div>
+
+
+
+
+
+
+
 	</div><!-- d-none -->
 
 	
