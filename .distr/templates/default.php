@@ -11,10 +11,7 @@
 	
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" rel="stylesheet">
-
-
 	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:900%7CMontserrat:400,600,700,900&amp;subset=cyrillic" rel="stylesheet">
-
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css" media="(max-width: 1199px)">
 
@@ -27,7 +24,7 @@
 $partner = isset($_GET['partner']) ? trim($_GET['partner']) : '';
 $version = isset($_GET['version']) ? trim($_GET['version']) : '';
 include_once 'version.php';
-include_once 'prices.php';
+
 ?>
 
 <body>
@@ -37,14 +34,14 @@ include_once 'prices.php';
 	<div class="wrapper">
 
 		{% include 'header/block.php' %}
-		{% include 'main/block.php' %}
+		{% include 'intro/block.php' %}
 		{% include 'fix2/block.php' %}
 		{% include 'footer/block.php' %}
 
 	</div>
 
 	<div class="d-none">
-		{% include 'policy/block.php' %}
+		{% include 'popup-policy/block.php' %}
 	</div><!-- d-none -->
 
 	{% endblock %}

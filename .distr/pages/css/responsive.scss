@@ -1,16 +1,12 @@
-$mobile-min-width: 320px;
-
-
-/*************/
 /* Defaults */
 // @import 'common/_responsive';
 
 /***********/
 /* Blocks */
 @import 'header/_responsive';
-@import 'main/_responsive';
+@import 'intro/_responsive';
 @import 'footer/_responsive';
 
 /***********/
 /* Popups */
-@import 'policy/_responsive';
+@import 'popup-policy/_responsive';
