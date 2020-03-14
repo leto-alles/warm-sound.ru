@@ -1,3 +1,4 @@
+//=require novelty/script.js
 $(function () {
 
 	/* Inits */

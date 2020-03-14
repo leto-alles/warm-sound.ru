@@ -35,6 +35,7 @@ include_once 'version.php';
 
 		{% include 'header/block.php' %}
 		{% include 'intro/block.php' %}
+		{% include 'novelty/block.php' %}
 		{% include 'fix2/block.php' %}
 		{% include 'footer/block.php' %}
 
